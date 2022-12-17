@@ -5,7 +5,6 @@ koekeishiya/formulae/yabai
 ranger
 stow
 terminal-notifier
-todoist
 tree
 vim
 wget
