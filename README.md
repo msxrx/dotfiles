@@ -1,6 +1,10 @@
 # dotfiles
-Yep, these are my dotfiles. I manage them via [GNU Stow](https://www.gnu.org/software/stow/) installed through [Homebrew](http://brew.sh/).
+My dotfiles, managed via via [GNU Stow](https://www.gnu.org/software/stow/) installed through [Homebrew](http://brew.sh/).
 
+## Acknowledgements
+Big thanks to ItsMeAra who I forked this repo from.
+
+What works for me might not work for you.
 
 
 ## Steps to install
