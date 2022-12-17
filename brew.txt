@@ -1,5 +1,6 @@
 git
 gh
+koekeishiya/formulae/yabai
 ranger
 stow
 terminal-notifier
