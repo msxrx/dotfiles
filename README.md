@@ -51,5 +51,5 @@ Next, go to System Preferences → Accounts. Right-click the account, choose `Ad
 
 **7. Install global npm packages in npm.txt**  
 ```
-cat npm.txt | xargs npm install -g
+cat npm.txt | xargs yarn global install
 ```
