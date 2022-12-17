@@ -1,5 +1,6 @@
 discord
 imageoptim
 iterm2
+todoist
 notion
 visual-studio-code
