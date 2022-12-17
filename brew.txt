@@ -1,5 +1,6 @@
 git
 gh
+koekeishiya/formulae/skhd
 koekeishiya/formulae/yabai
 ranger
 stow
