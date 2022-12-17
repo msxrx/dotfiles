@@ -42,7 +42,7 @@ stow ranger
 cat brew-cask.txt | xargs brew install --cask
 ```
 
-**6. Change your shell to Fish
+**6. Change your shell to Fish**
 ```
 sudo echo /usr/local/bin/fish >> /etc/shells
 ```
