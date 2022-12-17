@@ -42,7 +42,14 @@ stow ranger
 cat brew-cask.txt | xargs brew install --cask
 ```
 
-**6. Install global npm packages in npm.txt**  
+**6. Change your shell to Fish
+```
+sudo echo /usr/local/bin/fish >> /etc/shells
+```
+
+Next, go to System Preferences → Accounts. Right-click the account, choose `Advanced Options`. In the `Login shell` field, add the path to Fish.
+
+**7. Install global npm packages in npm.txt**  
 ```
 cat npm.txt | xargs npm install -g
 ```
