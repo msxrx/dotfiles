@@ -49,6 +49,12 @@ sudo echo /usr/local/bin/fish >> /etc/shells
 
 Next, go to System Preferences → Accounts. Right-click the account, choose `Advanced Options`. In the `Login shell` field, add the path to Fish.
 
+**7. Install fisher and nvm**
+```
+curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
+fisher install jorgebucaran/nvm.fish
+```
+
 **7. Install global npm packages in npm.txt**  
 ```
 cat npm.txt | xargs yarn global install
