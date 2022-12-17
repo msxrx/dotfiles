@@ -1,14 +1,6 @@
-bat
-deno
 git
 gh
-libffi
-libksba
-libyaml
-neon
-python
-rbenv
-ruby-build
+ranger
 stow
 terminal-notifier
 tree
