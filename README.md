@@ -57,5 +57,5 @@ fisher install jorgebucaran/nvm.fish
 
 **7. Install global npm packages in npm.txt**  
 ```
-cat npm.txt | xargs yarn global install
+cat npm.txt | xargs yarn global add
 ```
