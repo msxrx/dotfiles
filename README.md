@@ -35,6 +35,7 @@ cd ~/dotfiles
 stow git
 stow vim
 stow ranger
+stow fish
 ```
 
 **5. Install software in brew-cask.txt**  
