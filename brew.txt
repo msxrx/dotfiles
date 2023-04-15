@@ -1,5 +1,6 @@
 git
 gh
+ffmpeg
 fish
 koekeishiya/formulae/skhd
 koekeishiya/formulae/yabai
