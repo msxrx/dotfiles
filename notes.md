@@ -1,6 +1,6 @@
 # Notes
 
-Random notes form the installation process.
+Random notes from the installation process.
 
 ## Files and directories created by Homebrew installation:
 
