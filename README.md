@@ -9,13 +9,8 @@ What works for me might not work for you.
 
 ## Steps to install
 
-**1. Install Homebrew by running:**  
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-echo '# Set PATH, MANPATH, etc., for Homebrew.' >> ~/.zprofile
-echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
+**1. Install Homebrew by following the instructions on:**  
+[https://brew.sh/](https://brew.sh/)
 
 **2. Clone this repo**  
 ```
@@ -26,16 +21,18 @@ cd dotfiles/
 
 **3. Install Homebrew Formulae from brew.txt**  
 ```
-cat brew.txt | xargs brew install
+// on linux:
+cat brew-linux.txt | xargs brew install
+// additionally on macos:
+cat brew-macos.txt | xargs brew install
 ```
 
 **4. Setup Symlinks via Stow**  
 ```
-cd ~/dotfiles
-stow git
-stow vim
-stow ranger
-stow fish
+// on linux:
+stow -t ~ -d stow -S fish git ranger vim
+// additionally on macos:
+stow -t ~ -d stow -S shkd yabai
 ```
 
 **5. Install software in brew-cask.txt**  
@@ -45,8 +42,8 @@ cat brew-cask.txt | xargs brew install --cask
 
 **6. Change your shell to Fish**
 ```
-sudo sh -c "echo $(which zsh) >> /etc/shells"
-chsh -s $(which zsh)
+sudo sh -c "echo $(which fish) >> /etc/shells"
+chsh -s $(which fish)
 ```
 
 **7. Install fisher and nvm**
@@ -55,7 +52,13 @@ curl -sL https://git.io/fisher | source && fisher install jorgebucaran/fisher
 fisher install jorgebucaran/nvm.fish
 ```
 
-**7. Install global npm packages in npm.txt**  
+**8. Install omf and foreign-env**
+https://github.com/oh-my-fish/oh-my-fish
 ```
-cat npm.txt | xargs yarn global add
+omf install foreign-env
+```
+
+**9. Install global npm packages in npm.txt**  
+```
+cat npm.txt | xargs pnpm add -g
 ```

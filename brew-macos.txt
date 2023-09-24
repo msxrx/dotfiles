@@ -1,14 +1,3 @@
-git
-gh
-ffmpeg
-fish
 koekeishiya/formulae/skhd
 koekeishiya/formulae/yabai
-ranger
-stow
 terminal-notifier
-tree
-vim
-wget
-yarn
-yt-dlp

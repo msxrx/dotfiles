@@ -1,0 +1,12 @@
+ffmpeg
+fish
+gh
+git
+pnpm
+ranger
+stow
+tree
+vim
+wget
+yarn
+yt-dlp
